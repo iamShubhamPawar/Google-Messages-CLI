@@ -8,7 +8,7 @@ print(color.ORANGE+"""░▒█▀▀█░▄▀▀▄░▄▀▀▄░█▀�
 
 
 if __name__ == "__main__":
-    main.initizalize()
+    main.initialize()
     while True:
         option = int(input((f"{color.CYAN}\nSelect an option:\n1.Send a SMS\n2.Read SMS from a specific contact\n3.List of Recent Messages\n4.Exit{color.RESET}{color.YELLOW}\n\n[+]Enter the following number to select an option: {color.RESET}")))
         if option == 1:
